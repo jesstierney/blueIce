@@ -11,6 +11,7 @@ The contents of the repository are as follows:
 * [blueIceData.xlsx](#blueIceData.xlsx)
 * [externalData](#externalData)
 * [respirationCorrection.ipynb](#respirationCorrection.ipynb)
+* [iterateMixingDepth.ipynb](iterateMixingDepth.ipynb)
 * [iceModelCO2.ipynb](#iceModelCO2.ipynb)
 * [iceModelIsotopesMOT.ipynb](#iceModelIsotopesMOT.ipynb)
 * [timeAvgFunction.py](#timeAvgFunction.py)
@@ -45,6 +46,9 @@ This folder contains data files needed for forward modeling, including:
 
 ### respirationCorrection.ipynb
 This Jupyter Notebook contains code to compute the respired/microbial metabolic end-member for the d13C of CO<sub>2</sub> via a regression approach, apply the regression correction to non-pristine CO2 datapoints, and produce Figure 1 of the paper.
+
+### iterateMixingDepth.ipynb
+This Jupyter Notebook contains code to iteratively determine the optimal mixing depths for the three ice proxies that are simulated, and produce Figure S1 of the paper.
 
 ### iceModelCO2.ipynb
 This Jupyter Notebook contains code to forward model time-averaging and mixing of a primary (atmospheric)  CO<sub>2</sub> signal in blue ice, and produce Figure 2 of the paper.
